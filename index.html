@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Outfit", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="min-h-screen max-w-md bg-base-200 m-auto">
+
+    <div class="m-auto max-w-[250px] pt-50">
+        <img src="/assets/Logo-full.png" alt="">
+    </div>
+    <div class="pt-10 m-auto">
+
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 rounded-3xl m-auto">
+            <div class="card-body">
+                <fieldset class="fieldset">
+                    <label class="label text-neutral font-semibold">Mobile Number</label>
+                    <input id="number-input" minlength="11" maxlength="11" type="email"
+                        class="input bg-base-200 rounded-full border-0" placeholder="Enter your number" />
+                    <label class="label text-neutral font-semibold">4 Digit Pin</label>
+                    <input id="pin-input" minlength="4" maxlength="4" type="password"
+                        class="input bg-base-200 rounded-full border-0" placeholder="Enter 4 Digit Pin" />
+
+                    <button id="login-btn" class="btn mt-4 rounded-full btn-primary">Login</button>
+                </fieldset>
+            </div>
+        </div>
+
+
+        <section class="text-center">
+
+        </section>
+        <script src="/payoo.js"></script>
+</body>
+
+</html>
